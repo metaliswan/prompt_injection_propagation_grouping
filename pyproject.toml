@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "metaliswan-disttrain_jd130"
+name = "metaliswan-prompt_injection_propagation_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出分布式训练框架工程师·提示注入的跨轮传播上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://metaliswan.github.io"
-Repository = "https://github.com/metaliswan/disttrain_jd130"
-Issues = "https://github.com/metaliswan/disttrain_jd130/issues"
+Repository = "https://github.com/metaliswan/prompt_injection_propagation_grouping"
+Issues = "https://github.com/metaliswan/prompt_injection_propagation_grouping/issues"
 
 [project.scripts]
-disttrain_jd130 = "disttrain_jd130:main"
+prompt_injection_propagation_grouping = "prompt_injection_propagation_grouping:main"
 
 [tool.setuptools]
-py-modules = ["disttrain_jd130"]
+py-modules = ["prompt_injection_propagation_grouping"]
